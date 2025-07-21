@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-Sticky Notes is a single-page React application written in TypeScript, designed for desktop browsers. The app is structured around a main `App` component that manages the state of all notes, with a component for individual sticky note, a modal for note creation, and a trash zone for deletion. All drag-and-drop and resizing logic is implemented manually using React state, refs, and mouse events, in line with the assessment requirements. The application uses a custom hook to persist notes in local storage, ensuring that notes are restored on page load.
+Sticky Notes is a single-page React app written in TypeScript, designed for desktop browsers. The app is structured around a main `App` component that manages the state of all notes, with a component for individual sticky note, a modal for note creation, and a trash zone for deletion. All drag-and-drop and resizing logic is implemented manually using React state, refs, and mouse events, in line with the assessment requirements. The application uses a custom hook to persist notes in local storage, ensuring that notes are restored on page load.
 
 The UI is built with plain CSS for clarity and maintainability, and the codebase is organized for readability and ease of review. Static typing is enforced throughout using TypeScript interfaces for notes, positions, and sizes, ensuring type safety and code quality. The design prioritizes usability, with intuitive interactions for creating, moving, resizing, editing, and deleting notes.
 

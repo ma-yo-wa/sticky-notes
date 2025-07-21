@@ -1,6 +1,6 @@
-import type React from "react"
+import React from "react"
 import { useState } from "react"
-import type { NoteSize, CreateNoteData, Position } from "@/types"
+import type { NoteSize, CreateNoteData, Position } from "../../types"
 import "./CreateNoteModal.css"
 
 interface CreateNoteModalProps {

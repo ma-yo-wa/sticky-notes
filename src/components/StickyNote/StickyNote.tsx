@@ -1,6 +1,6 @@
-import type React from "react"
+import React from "react"
 import { useState, useRef } from "react"
-import type { StickyNote as StickyNoteType } from "@/types"
+import type { StickyNote as StickyNoteType } from "../../types"
 import "./StickyNote.css"
 
 interface StickyNoteProps {

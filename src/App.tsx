@@ -1,4 +1,4 @@
-import type React from "react"
+import React from "react"
 import { useState, useRef, useCallback, useEffect } from "react"
 import type { StickyNote as StickyNoteType, Position, CreateNoteData, Size } from "./types"
 import { StickyNote } from "./components/StickyNote/StickyNote"
